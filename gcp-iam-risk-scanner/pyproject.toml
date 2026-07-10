@@ -1,0 +1,9 @@
+[project]
+name = "gcp-iam-risk-scanner"
+version = "0.1.0"
+description = "Small GCP IAM risk scanner"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+gcp-iam-risk-scanner = "gcp_iam_risk_scanner.cli:main"
