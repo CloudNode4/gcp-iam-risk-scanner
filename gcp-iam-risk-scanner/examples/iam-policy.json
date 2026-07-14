@@ -1,0 +1,16 @@
+{
+  "bindings": [
+    {
+      "role": "roles/viewer",
+      "members": ["user:dev@example.com"]
+    },
+    {
+      "role": "roles/owner",
+      "members": ["serviceAccount:deploy-bot@example-project.iam.gserviceaccount.com"]
+    },
+    {
+      "role": "roles/run.invoker",
+      "members": ["allUsers"]
+    }
+  ]
+}
