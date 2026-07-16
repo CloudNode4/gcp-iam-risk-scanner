@@ -1,11 +1,10 @@
 gcp-iam-risk-scanner
 
-Small Python CLI for checking exported GCP IAM bindings
+Python CLI for checking exported GCP IAM bindings
 
 It reads a JSON file and prints a simple risk report
 
-It is not a full security scanner
-It is a small helper for quick review
+It is a helper for quick review
 
 What it checks
 
